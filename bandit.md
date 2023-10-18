@@ -43,7 +43,7 @@ ssh bandit2@bandit.labs.overthewire.org -p 2220
 
 *entered previously found password*
 
-[spaces](https://linuxhandbook.com/filename-spaces-linux/)
+got [this](https://linuxhandbook.com/filename-spaces-linux/)about spaces
 
 
 **cat spaces\ in\ this\ filename**
