@@ -13,5 +13,10 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 ### level 0->1
 
+tried typing **readme** with commands given in the hint like
+ls, cd, cat, file
+
+password : NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+
 
 
