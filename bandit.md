@@ -1,4 +1,4 @@
-# bandit writeup
+# Bandit Writeup
 
 ---
 
