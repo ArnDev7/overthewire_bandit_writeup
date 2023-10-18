@@ -46,6 +46,9 @@ ssh bandit2@bandit.labs.overthewire.org -p 2220
 got [this](https://linuxhandbook.com/filename-spaces-linux/) about spaces
 
 
+![Screenshot 2023-10-19 at 2 57 16 AM](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/148140634/eab70f4b-ac55-4dd0-bf7d-eab8477fda4e)
+
+
 **cat spaces\ in\ this\ filename**
 
 
