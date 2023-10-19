@@ -76,6 +76,12 @@ learned that hidden files exist with a '.' and cd inhere was used to change the 
 
 password: **2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe**
 
+---
+
+### `level 4->5`
+
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+
 
        
 
