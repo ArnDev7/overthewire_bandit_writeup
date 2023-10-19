@@ -90,7 +90,7 @@ cat ./-file07
 
 *[reference](https://hackmethod.com/overthewire-bandit-5/?v=06fa567b72d7)*
 
-password : **lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+password : **lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR**
 
 ---
 
