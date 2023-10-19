@@ -68,12 +68,11 @@ ssh bandit3@bandit.labs.overthewire.org -p 2220
 
        ls
        cd inhere
-*(to change the directory to 'inhere
+       find  
+       cat .hidden
+      
 
-        find  
-        cat .hidden
-
-learned that hidden files exist with a '.'
+learned that hidden files exist with a '.' and cd inhere was used to change the directory to inhere
 
 password: **2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe**
 
