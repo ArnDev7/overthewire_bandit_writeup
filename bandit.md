@@ -54,7 +54,22 @@ got [this](https://linuxhandbook.com/filename-spaces-linux/) about spaces
 
 password: **aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG**
 
+---
 
- 
+### `level 3->4`
+
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+
+*entered previously found password*
+
+ learning : ***cd utility shall change the working directory of the current
+       shell execution environment***
+
+
+       ls
+       cd inhere
+
+
+       
 
 
