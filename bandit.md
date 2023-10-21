@@ -94,6 +94,29 @@ password : **lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR**
 
 ---
 
+### `level 5->6`
+
+ssh bandit5@bandit.labs.overthewire.org -p 2220
+
+1. ls
+2. cd inhere
+3. find
+4. find -size 1033c
+5. cat ./maybehere07/.file2
+
+
+   password: **P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU**
+
+   [Reference](https://man7.org/linux/man-pages/man1/find.1.html
+
+   ---
+
+   ### `level 6->7`
+
+   
+
+
+
 
 
 
