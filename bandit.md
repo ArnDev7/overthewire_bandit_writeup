@@ -107,7 +107,7 @@ ssh bandit5@bandit.labs.overthewire.org -p 2220
 
    password: **P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU**
 
-   [Reference](https://man7.org/linux/man-pages/man1/find.1.html
+   [Reference](https://man7.org/linux/man-pages/man1/find.1.html)
 
    ---
 
