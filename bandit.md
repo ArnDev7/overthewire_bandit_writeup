@@ -10,7 +10,7 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 *password is 'bandit0'*
 
 ---
-
+ 
 ### `level 0->1`
 
 tried typing **readme** with commands given in the hint like
