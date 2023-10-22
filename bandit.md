@@ -206,6 +206,7 @@ ssh bandit11@bandit.labs.overthewire.org -p 2220
 
 password: **JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv**
 
+*(got stuck for a long time as I was using 'strings' instead of 'cat')*
 
 Got help from [here](https://en.wikipedia.org/wiki/ROT13), [here](https://man7.org/linux/man-pages/man1/tr.1.html) and [here](https://mayadevbe.me/posts/overthewire/bandit/level12/)
 
