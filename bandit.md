@@ -115,8 +115,10 @@ ssh bandit5@bandit.labs.overthewire.org -p 2220
 
    ssh bandit6@bandit.labs.overthewire.org -p 2220
 
-1.
-1.
+   1. find / -user bandit7 -group bandit6 -size 33c
+   2. 
+
+ 
 
    
 
