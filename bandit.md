@@ -150,7 +150,6 @@ ssh bandit8@bandit.labs.overthewire.org -p 2220
 2. cat data.txt | sort | uniq -u
    
 
-
 password : **EN632PlfYiZbn3PhVK3XOGSlNInNE00t**
 
 
@@ -167,7 +166,17 @@ it took too long to go through the helpful material given.
 
 
  ### `level 9->10`
+
  
+ ssh bandit9@bandit.labs.overthewire.org -p 2220
+
+ 1. strings data.txt
+    *then a series of character was displayed with the password in it*
+
+    password: **G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s**
+
+[reference](https://man7.org/linux/man-pages/man1/strings.1.html) little bit
+    
 
 
 
