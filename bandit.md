@@ -213,6 +213,10 @@ Got help from [here](https://en.wikipedia.org/wiki/ROT13), [here](https://man7.o
 
 ---
 
+### `level 12->13`
+
+ssh bandit12@bandit.labs.overthewire.org -p 2220
+
 
 
 
