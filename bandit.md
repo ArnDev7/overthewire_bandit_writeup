@@ -22,7 +22,7 @@ password : NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 
 ### `level 1->2`
 
-read[this](https://linux-tips.com/t/dashed-filename-in-linux/188)on google and [this](.com/questions/42187323/how-to-open-a-dashed-filename-using-terminal)
+read [this](https://linux-tips.com/t/dashed-filename-in-linux/188) on google and [this](.com/questions/42187323/how-to-open-a-dashed-filename-using-terminal)
 
 learnerd the use of **cat./-**
 
