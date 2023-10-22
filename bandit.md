@@ -124,6 +124,9 @@ ssh bandit5@bandit.labs.overthewire.org -p 2220
 
 *Had some help [here](https://kongwenbin.wordpress.com/2016/08/14/overthewire-bandit-level-6-to-level-7/) about using '/' in 'find' when password is hidden 'somewhere'*
 
+---
+
+
 ### `level 7->8`
 
 ssh bandit7@bandit.labs.overthewire.org -p 2220
@@ -142,6 +145,8 @@ Found help here
 ### `level 8->9`
 
 ssh bandit8@bandit.labs.overthewire.org -p 2220
+
+
 
 
 
