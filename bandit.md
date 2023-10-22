@@ -134,13 +134,13 @@ ssh bandit7@bandit.labs.overthewire.org -p 2220
 
 was stuck for a long time here due to some error in the terminal which wasnt displaying the password even after typing the correct code.
 
-![googled and found this]![Screenshot 2023-10-22 at 7 56 32 PM 1](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/148140634/ffec8c2b-4f63-48af-ab45-a5e699ba7939)
+![googled and found this]![Screenshot 2023-10-22 at 7 56 32 PM 1] (https://github.com/ArnDev7/overthewire_bandit_writeup/assets/148140634/ffec8c2b-4f63-48af-ab45-a5e699ba7939)
 
  
 
    
 
-https://blogcompsci.wordpress.com/2014/10/13/bandit-level-7-%E2%86%92-level-8/
+(https://blogcompsci.wordpress.com/2014/10/13/bandit-level-7-%E2%86%92-level-8/)
 
 
 
