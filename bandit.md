@@ -137,6 +137,11 @@ was stuck for a long time here due to some error in the terminal which wasnt dis
 Found help here
 ![googled and found this](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/148140634/31929a87-28e4-4a99-b40e-7b1d1ac927d8)
 
+---
+
+### `level 8->9`
+
+ssh bandit8@bandit.labs.overthewire.org -p 2220
 
 
 
