@@ -116,7 +116,13 @@ ssh bandit5@bandit.labs.overthewire.org -p 2220
    ssh bandit6@bandit.labs.overthewire.org -p 2220
 
    1. find / -user bandit7 -group bandit6 -size 33c
-   2. 
+   2. cat /var/lib/dpkg/info/bandit7.password
+  
+
+   password: **z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S**
+
+
+*Had some help [here](https://kongwenbin.wordpress.com/2016/08/14/overthewire-bandit-level-6-to-level-7/) about using '/' in 'find' when password is hidden 'somewhere'*
 
  
 
