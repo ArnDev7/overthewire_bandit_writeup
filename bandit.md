@@ -175,7 +175,7 @@ it took too long to go through the helpful material given.
 
     password: **G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s**
 
-[reference](https://man7.org/linux/man-pages/man1/strings.1.html) little bit
+[reference](https://man7.org/linux/man-pages/man1/strings.1.html) 
     
 
 
