@@ -124,11 +124,23 @@ ssh bandit5@bandit.labs.overthewire.org -p 2220
 
 *Had some help [here](https://kongwenbin.wordpress.com/2016/08/14/overthewire-bandit-level-6-to-level-7/) about using '/' in 'find' when password is hidden 'somewhere'*
 
+### `level 7->8`
+
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+
+1. grep "millionth" data.txt
+2. password : **TESKZC0XvTetK0S9xNwm25STk5iWrBvP**
+
+
+was stuck for a long time here due to some error in the terminal which wasnt displaying the password even after typing the correct code.
+
+![googled and found this]![Screenshot 2023-10-22 at 7 56 32 PM 1](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/148140634/ffec8c2b-4f63-48af-ab45-a5e699ba7939)
+
  
 
    
 
-
+https://blogcompsci.wordpress.com/2014/10/13/bandit-level-7-%E2%86%92-level-8/
 
 
 
