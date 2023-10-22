@@ -146,6 +146,36 @@ Found help here
 
 ssh bandit8@bandit.labs.overthewire.org -p 2220
 
+1. ls
+2. cat data.txt | sort | uniq -u
+   
+
+
+password : **EN632PlfYiZbn3PhVK3XOGSlNInNE00t**
+
+*
+
+it took too long to go through the helpful material given.
+
+[this](https://ryanstutorials.net/linuxtutorial/piping.php) and [this](https://man7.org/linux/man-pages/man1/uniq.1.html) helped to solve.
+
+#### *Learnings:*
+*1. Piping (by using '|')
+ 2. sort
+ 3. to print unique lines using 'uniq'*
+
+ ---
+
+
+ ### `level 9->10`
+ 
+
+
+
+
+
+
+
 
 
 
