@@ -75,14 +75,14 @@ password: **2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe**
 
 ---
 
-### `level 4->5`
+### level 4->5
 
 ssh bandit4@bandit.labs.overthewire.org -p 2220
 
-ls -a      (for not ignoring entries starting with '.')
-cd inhere 
-file ./*
-cat ./-file07
+`ls -a `     (for not ignoring entries starting with '.')
+`cd inhere` 
+`file ./*`
+`cat ./-file07`
 
 
 *[reference](https://hackmethod.com/overthewire-bandit-5/?v=06fa567b72d7)*
@@ -91,15 +91,15 @@ password : **lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR**
 
 ---
 
-### `level 5->6`
+### level 5->6
 
 ssh bandit5@bandit.labs.overthewire.org -p 2220
 
-1. ls
-2. cd inhere
-3. find
-4. find -size 1033c
-5. cat ./maybehere07/.file2
+ `ls`
+`d inhere`
+ `find`
+ `find -size 1033c`
+   `cat ./maybehere07/.file2`
 
 
    password: **P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU**
