@@ -95,11 +95,11 @@ password : **lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR**
 
 ssh bandit5@bandit.labs.overthewire.org -p 2220
 
- `ls`
-`d inhere`
- `find`
- `find -size 1033c`
-   `cat ./maybehere07/.file2`
+1. `ls`
+1. `d inhere`
+1. `find`
+1. `find -size 1033c`
+1.  `cat ./maybehere07/.file2`
 
 
    password: **P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU**
@@ -108,12 +108,12 @@ ssh bandit5@bandit.labs.overthewire.org -p 2220
 
    ---
 
-   ### `level 6->7`
+   ### level 6->7
 
    ssh bandit6@bandit.labs.overthewire.org -p 2220
 
-   1. find / -user bandit7 -group bandit6 -size 33c
-   2. cat /var/lib/dpkg/info/bandit7.password
+   1. `find / -user bandit7 -group bandit6 -size 33c`
+   2. `cat /var/lib/dpkg/info/bandit7.password`
   
 
    password: **z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S**
@@ -124,12 +124,12 @@ ssh bandit5@bandit.labs.overthewire.org -p 2220
 ---
 
 
-### `level 7->8`
+### level 7->8
 
 ssh bandit7@bandit.labs.overthewire.org -p 2220
 
-1. grep "millionth" data.txt
-2. password : **TESKZC0XvTetK0S9xNwm25STk5iWrBvP**
+ `grep "millionth" data.txt`
+ password : **TESKZC0XvTetK0S9xNwm25STk5iWrBvP**
 
 
 was stuck for a long time here due to some error in the terminal which wasnt displaying the password even after typing the correct code.
@@ -139,12 +139,12 @@ Found help here
 
 ---
 
-### `level 8->9`
+### level 8->9
 
 ssh bandit8@bandit.labs.overthewire.org -p 2220
 
-1. ls
-2. cat data.txt | sort | uniq -u
+`ls`
+ `cat data.txt | sort | uniq -u`
    
 
 password : **EN632PlfYiZbn3PhVK3XOGSlNInNE00t**
@@ -162,12 +162,12 @@ it took too long to go through the helpful material given.
  ---
 
 
- ### `level 9->10`
+ ### level 9->10
 
  
  ssh bandit9@bandit.labs.overthewire.org -p 2220
 
- 1. strings data.txt
+`strings data.txt`
     *then a series of characters was displayed with the password in it*
 
     password: **G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s**
@@ -176,14 +176,14 @@ it took too long to go through the helpful material given.
 
 ---
 
-### `level 10->11`
+### level 10->11
 
 ssh bandit10@bandit.labs.overthewire.org -p 2220
 
 
  *forgot to put '-d' at first (which is used for decoding)*
 
-   1. base64 -d data.txt
+`base64 -d data.txt`
 
       password: **6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM**
 
@@ -193,12 +193,12 @@ ssh bandit10@bandit.labs.overthewire.org -p 2220
 ---
 
 
-### `level 11->12`
+### level 11->12
 
     
 ssh bandit11@bandit.labs.overthewire.org -p 2220
 
-   1. cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+   ` cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
 
 
 password: **JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv**
@@ -210,7 +210,7 @@ Got help from [here](https://en.wikipedia.org/wiki/ROT13), [here](https://man7.o
 
 ---
 
-### `level 12->13`
+### level 12->13
 
 ssh bandit12@bandit.labs.overthewire.org -p 2220
 
