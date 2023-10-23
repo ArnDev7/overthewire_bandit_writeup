@@ -63,10 +63,10 @@ ssh bandit3@bandit.labs.overthewire.org -p 2220
        shell execution environment***
 
 
-   `ls`
-   `cd inhere`
-   `find`
-   `cat .hidden`
+  1. `ls`
+  1. `cd inhere`
+  1. `find`
+  1. `cat .hidden`
       
 
 learned that hidden files exist with a '.' and cd inhere was used to change the directory to inhere
