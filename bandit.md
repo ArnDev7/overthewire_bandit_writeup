@@ -79,10 +79,10 @@ password: **2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe**
 
 ssh bandit4@bandit.labs.overthewire.org -p 2220
 
-1.`ls -a `     (for not ignoring entries starting with '.')
-1.`cd inhere` 
-1.`file ./*`
-1.`cat ./-file07`
+1. `ls -a `     (for not ignoring entries starting with '.')
+1. `cd inhere` 
+1. `file ./*`
+1. `cat ./-file07`
 
 
 *[reference](https://hackmethod.com/overthewire-bandit-5/?v=06fa567b72d7)*
