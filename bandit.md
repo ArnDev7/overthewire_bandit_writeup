@@ -230,7 +230,7 @@ Read this ![](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/14814
 \
 `ls` 
 <br>
-*data*  &nbsp &nbsp *data.txt*
+*data*   *data.txt*
 <br>
 `file data`
 <br>
@@ -258,16 +258,26 @@ Had help [here](https://linuxize.com/post/gzip-command-in-linux/)
 <br>
 `ls`
 <br>
+*data.txt  file*
+<br>
+<br>
 `file file`
 <br>
+*file: gzip compressed data, was "data4.bin"* <br>
+\
+
 `mv file file.gz`
 <br>
 `gzip -d file.gz`
 <br>
 `ls`
 <br>
+*data.txt*  *file* <br>
+\
 `file file`
 <br>
+*file: POSIX tar archive (GNU)* <br>
+\
 `mv file file.tar`
 <br>
 `tar xf file.tar`
