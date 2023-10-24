@@ -224,7 +224,7 @@ ssh bandit12@bandit.labs.overthewire.org -p 2220
 \
 `xxd -r data.txt > data`          *converting hex to binary*
 \
-![Read this](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/148140634/33feda7f-a836-4361-ae06-17afc20fa113)
+Read this ![](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/148140634/33feda7f-a836-4361-ae06-17afc20fa113)
 
 
 `ls`
