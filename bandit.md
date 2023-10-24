@@ -230,7 +230,6 @@ Read this ![](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/14814
 `ls` 
 \
 `file data`
-
 <br>
 *found out that this is a gzip file, so, have to decompress it*
 <br>
