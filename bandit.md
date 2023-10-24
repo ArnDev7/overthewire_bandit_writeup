@@ -214,13 +214,15 @@ Got help from [here](https://en.wikipedia.org/wiki/ROT13), [here](https://man7.o
 
 ssh bandit12@bandit.labs.overthewire.org -p 2220
 
-`mkdir /tmp/pew`          
+`mkdir /tmp/sick`          
 \
-`cp data.txt /tmp/pew`            *to copy the data file*
+`cp data.txt /tmp/sick`            *to copy the data file*
 \
-`cd /tmp/pew`                   *to set it to the current directory*
+`cd /tmp/sick`                   *to set it to the current directory*
 \
 `ls`                            *to display files*
+\
+*data.txt*
 \
 `xxd -r data.txt > data`         *converting hex to binary*
 \
@@ -229,7 +231,11 @@ Read this ![](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/14814
 
 `ls` 
 \
+*data*  *data.txt*
+\
 `file data`
+<br>
+*data: gzip compressed data, was "data2.bin"*
 <br>
 *found out that this is a gzip file, so, have to decompress it*
 <br>
@@ -240,6 +246,69 @@ Read this ![](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/14814
 Had help [here](https://linuxize.com/post/gzip-command-in-linux/)
 `gzip -d file.gz`  
 <br>
+`ls`
+<br>
+*data.txt*   *file*
+`file file`
+<br>
+*file: bzip2 compressed data, block size = 900k*
+<br>
+`mv file file.bz2`
+<br>
+`bzip2 -d file.bz2`
+<br>
+`ls`
+<br>
+`file file`
+<br>
+`mv file file.gz`
+<br>
+`gzip -d file.gz`
+<br>
+`ls`
+<br>
+`file file`
+<br>
+`mv file file.tar`
+<br>
+`tar xf file.tar`
+<br>
+`ls`
+<br>
+`file data5.bin`
+<br>
+`rm file.tar`
+<br>
+`rm data`
+<br>
+`rm data.txt`
+<br>
+`ls`
+<br>
+`file file`
+<br>
+`file data5.bin`
+<br>
+`mv data5.bin data.tar`
+<br>
+`tar xf data.tar`
+<br>
+`ls`
+<br>
+`file data6.bin`
+<br>
+`mv data6.bin data.bz2`
+<br>
+`bzip2 -d  data.bz2`
+<br>
+`ls`
+<br>
+`file data` <br>
+*data: POSIX tar archive (GNU)*
+<br>
+`mv data data.tar`
+<br>
+
 
 
 
