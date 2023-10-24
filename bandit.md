@@ -228,11 +228,10 @@ ssh bandit12@bandit.labs.overthewire.org -p 2220
 \
 Read this ![](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/148140634/33feda7f-a836-4361-ae06-17afc20fa113)
 \
-
 `ls` 
-\ 
-*data*  *data.txt*
-\
+<br>
+*data* *data.txt*
+<br>
 `file data`
 <br>
 *data: gzip compressed data, was "data2.bin"*
