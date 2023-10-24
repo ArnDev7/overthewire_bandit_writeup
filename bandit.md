@@ -216,13 +216,13 @@ ssh bandit12@bandit.labs.overthewire.org -p 2220
 
 `mkdir /tmp/pew`          
 \
-`cp data.txt /tmp/pew`        &nbsp    *to copy the data file*
+`cp data.txt /tmp/pew`            *to copy the data file*
 \
-`cd /tmp/pew`               &nbsp      *to set it to the current directory*
+`cd /tmp/pew`                   *to set it to the current directory*
 \
-`ls`                         &nbsp     *to display files*
+`ls`                            *to display files*
 \
-`xxd -r data.txt > data`    &nbsp      *converting hex to binary*
+`xxd -r data.txt > data`         *converting hex to binary*
 \
 Read this ![](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/148140634/33feda7f-a836-4361-ae06-17afc20fa113)
 \
@@ -237,7 +237,8 @@ Read this ![](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/14814
 
 `mv data file.newfile`
 <br>
-
+`gzip -d file.gz`
+<br>
 
 
 
