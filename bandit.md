@@ -212,6 +212,11 @@ Got help from [here](https://en.wikipedia.org/wiki/ROT13), [here](https://man7.o
 
 ### level 12->13
 
+*was comparitively a very tough level, took a lot of time to get through. I had to read the manuals of various commands, had to do a lot of trial and error, got stuck at various steps too.*
+
+
+
+
 ssh bandit12@bandit.labs.overthewire.org -p 2220
 
 `mkdir /tmp/sick`          
