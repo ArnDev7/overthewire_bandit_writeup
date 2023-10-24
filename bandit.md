@@ -234,10 +234,13 @@ Read this ![](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/14814
 *found out that this is a gzip file, so, have to decompress it*
 <br>
 
-`mv data file.newfile`
+`mv data file.gz`
 <br>
-`gzip -d file.gz`
 <br>
+Had help [here](https://linuxize.com/post/gzip-command-in-linux/)
+`gzip -d file.gz`  
+<br>
+
 
 
 
