@@ -214,7 +214,14 @@ Got help from [here](https://en.wikipedia.org/wiki/ROT13), [here](https://man7.o
 
 ssh bandit12@bandit.labs.overthewire.org -p 2220
 
-`mkdir/tmp/siuu/`
+`mkdir /tmp/any`
+\
+`cp data.txt /tmp/any`
+\
+`cd /tmp/any`
+\
+
+
 
 
 
