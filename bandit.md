@@ -214,12 +214,24 @@ Got help from [here](https://en.wikipedia.org/wiki/ROT13), [here](https://man7.o
 
 ssh bandit12@bandit.labs.overthewire.org -p 2220
 
-`mkdir /tmp/any`
+`mkdir /tmp/any`          
 \
-`cp data.txt /tmp/any`
+`cp data.txt /tmp/any`            *to copy the data file*
 \
-`cd /tmp/any`
+`cd /tmp/any`                     *to set it to the current directory*
 \
+`ls`                              *to display files*
+\
+`xxd -r data.txt > data`          *converting hex to binary*
+\
+![Read this](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/148140634/33feda7f-a836-4361-ae06-17afc20fa113)
+
+
+`ls`
+\
+`file data.txt`
+\
+*found out that this is a gzip file
 
 
 
