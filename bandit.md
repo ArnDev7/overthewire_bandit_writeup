@@ -283,8 +283,13 @@ Had help [here](https://linuxize.com/post/gzip-command-in-linux/)
 `tar xf file.tar`
 <br>
 `ls`
+<br> 
+*data5.bin  data.txt  file.tar*
 <br>
+
 `file data5.bin`
+<br>
+*data5.bin: POSIX tar archive (GNU)*
 <br>
 `rm file.tar`
 <br>
@@ -294,16 +299,25 @@ Had help [here](https://linuxize.com/post/gzip-command-in-linux/)
 <br>
 `ls`
 <br>
+*data5.bin* <br>
+<br>
+
 `file file`
 <br>
 `file data5.bin`
 <br>
+data5.bin: POSIX tar archive (GNU)<br>
+<br>
+
 `mv data5.bin data.tar`
 <br>
 `tar xf data.tar`
 <br>
 `ls`
 <br>
+*data6.bin  data.tar*
+<br>
+
 `file data6.bin`
 <br>
 `mv data6.bin data.bz2`
@@ -312,14 +326,50 @@ Had help [here](https://linuxize.com/post/gzip-command-in-linux/)
 <br>
 `ls`
 <br>
+*data  data.tar*
+<br>
+
 `file data` <br>
 *data: POSIX tar archive (GNU)*
 <br>
 `mv data data.tar`
 <br>
+`ls`
+<br>
+*data.tar*
+<br>
+`tar xf data.tar`
+<br>
+`ls`
+<br>
+*data8.bin  data.tar*
+<br>
+`file data8.bin`
+<br>
+<br>
+*data8.bin: gzip compressed data, was "data9.bin"*
+<br>
+`mv data8.bin data.gz`
+<br>
+`gzip -d data.gz`
+<br>
+`ls`
+<br>
+<br>
+*data  data.tar*
+<br>
+`file data`
+<br>
+*data: ASCII text*
+<br>
+`cat data`
+<br>
+<br>
+<br>
+***The password is wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw***
 
 
-
+---
 
 
 
