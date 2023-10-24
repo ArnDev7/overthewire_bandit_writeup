@@ -368,6 +368,11 @@ data5.bin: POSIX tar archive (GNU)<br>
 <br>
 ***The password is wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw***
 
+[Reference 1](https://en.wikipedia.org/wiki/Hex_dump) <br>
+[Reference 2](https://man7.org/linux/man-pages/man1/tar.1.html) <br>
+[Reference 3](https://man7.org/linux/man-pages/man1/mv.1.html) <br>
+
+
 
 ---
 
