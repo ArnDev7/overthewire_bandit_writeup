@@ -230,7 +230,7 @@ Read this ![](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/14814
 \
 
 `ls` 
-\
+\ 
 *data*  *data.txt*
 \
 `file data`
