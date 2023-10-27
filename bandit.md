@@ -482,7 +482,7 @@ vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
 
 
 
-[Refernce](https://www.hackercoolmagazine.com/target-specification-in-nmap/)
+[Reference](https://www.hackercoolmagazine.com/target-specification-in-nmap/)
 
 
 
