@@ -425,6 +425,7 @@ ssh bandit15@bandit.labs.overthewire.org -p 2220
 `openssl s_client -connect  localhost:30001`
 
 <br>
+
 *I was stuck for very long here, as I did not know that i had to use '-connect' to connec to the local host*
 
 
