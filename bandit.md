@@ -428,7 +428,6 @@ ssh bandit15@bandit.labs.overthewire.org -p 2220
 
 *s_client is used as we were asked to use SSL encryption*
 <br>
-
 <br>
 **Entered previous password**
 <br>
