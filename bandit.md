@@ -513,6 +513,33 @@ I tried reading ssh manuals, and then put another command in front of the login 
 
 password: **awhqfNnAbc1naukrpqDYcF95h7HoMTrC**
 
+---
+
+### level 19->20
+
+ssh bandit19@bandit.labs.overthewire.org -p 2220
+
+`ls`
+<br>
+`file bandit20-do`
+<br>
+
+I set bandit20-do to the current directory and followed further as the question said..
+
+`./bandit20-do cat /etc/bandit_pass/bandit20`
+<br>
+
+![Screenshot 2023-10-28 at 5 12 11 PM](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/148140634/d3cf1e67-7ca1-4a2c-9c5f-3c09fba95c3a)
+
+
+password: **VxCazJaVykI6W36BkBU0mJTCM8rR95XT**
+
+---
+
+### level 20->21
+
+
+
 
 
 
