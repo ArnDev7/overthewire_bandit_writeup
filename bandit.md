@@ -475,14 +475,43 @@ vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
 -----END RSA PRIVATE KEY-----`
 
 
+I copied the RSA key and logged out. I logged in to bandit17 by using `ssh -i sshkey.private bandit17@localhost -p 2220`
+<br>
+`cat /etc/bandit_pass/bandit17`
+
+password: **VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e**
 
 
 
 
+[Reference 1](https://www.hackercoolmagazine.com/target-specification-in-nmap/)
+[Ref 2](https://unix.stackexchange.com/questions/494788/omit-one-column-in-ls-hal)
 
 
+---
 
-[Reference](https://www.hackercoolmagazine.com/target-specification-in-nmap/)
+### level 17->18
+
+`ls`
+<br>
+`diff passwords.old passwords.new`
+<br>
+
+password: **hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg**
+
+---
+
+### level 18->19
+
+ssh bandit18@bandit.labs.overthewire.org -p 2220
+
+This immediately logs the host out.
+I tried reading ssh manuals, and then put another command in front of the login commmand.
+
+`ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme`  got the next level's password right away.
+<br>
+
+password: **awhqfNnAbc1naukrpqDYcF95h7HoMTrC**
 
 
 
