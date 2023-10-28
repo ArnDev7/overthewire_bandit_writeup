@@ -538,7 +538,16 @@ password: **VxCazJaVykI6W36BkBU0mJTCM8rR95XT**
 
 ### level 20->21
 
+ssh bandit20@bandit.labs.overthewire.org -p 2220
 
+`nc -lp 1212` set this up in the background and run
+<br>
+`./suconnect 1212` setting this at the bankground and bringing back to the foreground by using `fg` later.
+<br>
+
+can also use a second terminal to perform rather than using `bg` and `fg`
+
+password: **NvEJF7oVjkddltPSrdKEFOllh9V1IBcq**
 
 
 
