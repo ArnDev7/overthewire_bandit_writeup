@@ -619,7 +619,7 @@ password: **QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G**
 
 ***got stuck as I didnt change the username to 'bandit23', so it was echoing the wrong username therby giving the wrong key.***
 
-also googled [this](https://www.geeksforgeeks.org/md5sum-linux-command/)
+googled [this](https://www.geeksforgeeks.org/md5sum-linux-command/)
 
 ---
 
