@@ -485,7 +485,8 @@ password: **VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e**
 
 
 [Reference 1](https://www.hackercoolmagazine.com/target-specification-in-nmap/)
-[Ref 2](https://unix.stackexchange.com/questions/494788/omit-one-column-in-ls-hal)
+<br>
+[Reference 2](https://unix.stackexchange.com/questions/494788/omit-one-column-in-ls-hal)
 
 
 ---
