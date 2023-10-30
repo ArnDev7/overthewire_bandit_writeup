@@ -557,6 +557,47 @@ password: **NvEJF7oVjkddltPSrdKEFOllh9V1IBcq**
 
 ssh bandit21@bandit.labs.overthewire.org -p 2220
 
+`cd /etc/cron.d`
+<br>
+`ls -l`
+<br>
+*the output was:*
+`-rw-r--r-- 1 root root  62 Oct  5 06:19 cronjob_bandit15_root
+-rw-r--r-- 1 root root  62 Oct  5 06:19 cronjob_bandit17_root
+-rw-r--r-- 1 root root 120 Oct  5 06:19 cronjob_bandit22
+-rw-r--r-- 1 root root 122 Oct  5 06:19 cronjob_bandit23
+-rw-r--r-- 1 root root 120 Oct  5 06:19 cronjob_bandit24
+-rw-r--r-- 1 root root  62 Oct  5 06:19 cronjob_bandit25_root
+-rw-r--r-- 1 root root 201 Jan  8  2022 e2scrub_all
+-rwx------ 1 root root  52 Oct  5 06:20 otw-tmp-dir
+-rw-r--r-- 1 root root 396 Feb  2  2021 sysstat`
+<br>
+I started checking all of them one by one, then found the correct one by `cat cronjob_bandit22`
+<br>
+`cat bandit22 /usr/bin/cronjob_bandit22.sh`
+<br>
+*Output:*
+<br>
+`#!/bin/bash
+chmod 644 /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+cat /etc/bandit_pass/bandit22 > /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv`
+<br>
+`cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv`
+<br>
+
+
+password: **WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff**
+<br>
+
+
+Had help [here](https://serverfault.com/questions/162388/what-does-five-asterisks-in-a-cron-file-mean)
+
+---
+
+### level 22->23
+
+ssh bandit22@bandit.labs.overthewire.org -p 2220
+
 
 
 
