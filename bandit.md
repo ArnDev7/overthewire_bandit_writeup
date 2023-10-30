@@ -599,6 +599,32 @@ Had help [here](https://serverfault.com/questions/162388/what-does-five-asterisk
 
 ssh bandit22@bandit.labs.overthewire.org -p 2220
 
+`cat /etc/cron.d/cronjob_bandit23`
+\
+`cat /usr/bin/cronjob_bandit23.sh`  (following the previous level's pattern)
+<br>
+it gave the output: 
+<br>
+![Screenshot 2023-10-31 at 12 11 08 AM](https://github.com/ArnDev7/overthewire_bandit_writeup/assets/148140634/5bfae7a8-94a0-40cc-9634-9be70e5698ac)
+
+`myname=bandit23`
+<br>
+`echo I am user $myname | md5sum | cut -d ' ' -f 1`
+output: `8ca319486bfbbc3663ea0fbe81326349` 
+<br>
+`cat /tmp/8ca319486bfbbc3663ea0fbe81326349`
+<br>
+
+password: **QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G**
+
+***got stuck as I didnt change the username to 'bandit23', so it was echoing the wrong username therby giving the wrong key.***
+
+---
+
+
+### level 23->24
+
+
 
 
 
