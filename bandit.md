@@ -550,9 +550,13 @@ can also use a second terminal to perform rather than using `bg` and `fg`
 password: **NvEJF7oVjkddltPSrdKEFOllh9V1IBcq**
 
 
+---
+
 ### level 21->22
 
 ssh bandit21@bandit.labs.overthewire.org -p 2220
+
+
 
 
 
